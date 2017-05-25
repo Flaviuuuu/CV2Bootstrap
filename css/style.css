@@ -1,0 +1,68 @@
+.main-picture::after {
+    font-family: FontAwesome;
+    content: "\f063";
+    text-align: center;
+    display: block;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.main-picture img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.main-picture h1 {
+    margin: 50px;
+}
+.main-picture .first-h1 {
+    /*display: none;*/
+}
+.main-picture .second-h1 {
+    /*visibility: hidden;*/
+}
+.about-me {
+    padding-top: 50px;
+}
+.about-me .text-info {
+    font-size: 20px;
+    padding: 40px;
+    line-height: 40px;
+}
+.about-me .text-info span {
+    width : 100px;
+	overflow:hidden;
+	display:inline-block;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+    border: solid 1px red;
+	
+	 
+}
+.about-me .table-me {
+    display: table;
+    background-color: goldenrod;
+    border: #000 dotted 1px;
+    float: left;
+    width: 50%;
+}
+.about-me .row {
+    display: table-row;
+}
+.about-me .cell {
+    display: table-cell;
+    padding: 30px;
+}
+.about-me table {
+    float: left;
+    width: 50%;
+}
+.footer-me {
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.container .panel {
+	float:left;
+	width: 98%
+
+	
+}
